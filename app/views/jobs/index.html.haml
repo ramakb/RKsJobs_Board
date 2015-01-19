@@ -1,0 +1,6 @@
+- @jobs.each do |job|
+  %h3= job.title
+  %p= job.description
+  %p= job.company
+  
+%h3= link_to "New Job", new_job_path
